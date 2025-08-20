@@ -206,11 +206,12 @@ li:first-child
 .content-section-navigation
 a 
 {          
-      font-size: 30px;
+      font-size: 18px;
       color: #333740;
-      font-weight: 900;     
-      position: relative; 
-      letter-spacing: 1px;
+      font-weight: 700;   
+      line-height: 1.5;  
+      position: relative;       
+      letter-spacing: 2px;
       text-decoration: none;
       text-transform: uppercase;     
 
@@ -250,13 +251,24 @@ a:hover
 }
 .content-section-navigation
 .contact-list
+{      
+      font-size: 11px;
+      color: #333740;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: capitalize;      
+
+      transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.content-section-navigation
+.contact-list
 a
 {      
-      font-size: 12px;
+      font-size: 11px;
       color: #333740;
-      font-weight: 100;
-      text-transform: capitalize;
-      font-family: 'Secular One', san-serif;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: capitalize;      
 
       transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -267,7 +279,14 @@ a:hover
       color: #999;
       padding-left: 2px;
 }
-
+.content-section-navigation
+.contact-list
+svg
+{      
+      width: 11px;
+      height: 11px;
+      fill: #333740;      
+}
 
 
 /* контент хэсэг хөл */
