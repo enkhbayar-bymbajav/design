@@ -25,7 +25,7 @@
       background-position: center;
       background-repeat: no-repeat;      
       box-shadow: 0 0 100px 10px #bbb;            
-      background-image: url("assets/img/photograph/photograph-small-01.png");
+      background-image: url("assets/img/photograph/photograph-01.jpg");
 }
 .content-section-photograph
 .photograph-animation
@@ -88,7 +88,7 @@ h5
       width: 100%;
       height: auto;
       margin: 0 auto;
-      max-width: 30%;
+      max-width: 40%;
 }
 .content-section-article
 .article-box
@@ -173,7 +173,7 @@ blockquote::before
       margin: auto;
       height: 150px;
       display: flex;
-      max-width: 30%;      
+      max-width: 40%;      
       align-items: center;
       justify-content: center;      
 }
@@ -212,7 +212,7 @@ svg
 {     
       height: auto;     
       margin: auto; 
-      max-width: 30%;      
+      max-width: 40%;      
 }
 .content-section-timeline
 .timeline-box
@@ -316,7 +316,7 @@ b
 {
       height: auto;
       margin: auto;     
-      max-width: 30%;
+      max-width: 40%;
       padding-top: 30px;      
       padding-bottom: 100px;
       flex-direction: column;
@@ -334,13 +334,13 @@ h5
       color: #333740;
       font-weight: 800;
       line-height: 100%;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
 }
 .content-section-box
 h6
 {                 
       color: #999;
-      font-size: 18px;
+      font-size: 12px;
       font-weight: 500;
       line-height: 100%;      
       margin-bottom: 24px;
@@ -408,7 +408,7 @@ p
 {
       
       margin: auto;
-      max-width: 30%;
+      max-width: 40%;
 }
 .content-section-foot
 .foot-article
@@ -424,7 +424,7 @@ h5
       gap: 10px;
       margin: auto;
       display: grid;      
-      max-width: 30%;
+      max-width: 40%;
       grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
 }
 .content-section-foot
