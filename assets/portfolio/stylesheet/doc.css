@@ -98,10 +98,9 @@ a:hover
 h5
 {
       padding: 5px 0;
-      font-size: 14px;
+      font-size: 15px;
       color: #005dab;
-      font-weight: 700;      
-      text-transform: capitalize;      
+      font-weight: 700;            
       text-decoration: underline;
 }
 .content-section-article
@@ -112,9 +111,10 @@ h5:hover
 .content-section-article
 img
 {      
-      width: 14px;
-      height: 14px;
-      margin-top: -10px;
+      width: 15px;
+      height: 15px;
+      margin-top: -5px;
+      margin-left: 5px;
 }
 .content-section-article
 img:hover
